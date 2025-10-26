@@ -24,23 +24,23 @@ export default function TaskList() {
 
   return (
     <div className="w-full max-w-lg mx-auto">
-      <h2 className="text-2xl font-semibold mb-4 text-gray-800">Pending Tasks</h2>
+      <h2 className="mb-4 text-2xl font-bold text-white">Pending Tasks</h2>
       {tasks.length === 0 ? (
-        <p className="text-gray-500 text-center">No pending tasks</p>
+        <p className="text-center text-gray-500">No pending tasks</p>
       ) : (
         <ul className="space-y-3">
           {tasks.map((t) => (
             <li
               key={t.id}
-              className="bg-white p-4 shadow-md rounded-lg flex justify-between items-center"
+              className="flex items-center justify-between p-4 rounded-lg shadow-md bg-blue-50"
             >
               <div>
-                <h3 className="font-bold text-lg text-gray-700">{t.title}</h3>
-                <p className="text-gray-500 text-sm">{t.description}</p>
+                <h3 className="text-lg font-bold text-blue-900">{t.title}</h3>
+                <p className="text-sm text-gray-500">{t.description}</p>
               </div>
               <button
                 onClick={() => handleDone(t.id)}
-                className="bg-green-500 text-white px-3 py-1 rounded-lg hover:bg-green-600 transition"
+                className="px-3 py-1 text-white transition bg-green-500 rounded-lg hover:bg-green-600"
               >
                 Done
               </button>
