@@ -27,25 +27,25 @@ export default function TaskForm({ onTaskAdded }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-white p-4 rounded-xl shadow-md mb-6 w-full max-w-lg mx-auto"
+      className="w-full max-w-lg p-4 mx-auto mb-6 shadow-md bg-blue-50 rounded-xl"
     >
-      <h2 className="text-xl font-semibold mb-3 text-gray-700">Add New Task</h2>
+      <h2 className="mb-3 text-xl font-bold text-blue-900">Add New Task</h2>
       <input
         type="text"
         placeholder="Task title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        className="w-full border rounded-md p-2 mb-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="w-full p-2 mb-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
       <textarea
         placeholder="Task description"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        className="w-full border rounded-md p-2 mb-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="w-full p-2 mb-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
       <button
         type="submit"
-        className="bg-blue-500 text-white rounded-md px-4 py-2 hover:bg-blue-600 transition"
+        className="px-4 py-2 text-white transition bg-blue-800 rounded-md hover:bg-blue-900"
       >
         Add Task
       </button>
