@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\New folder\\Assignment\\TodoApp.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|c:\\new folder\\assignment\\todoapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|c:\\new folder\\assignment\\todoapp.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|c:\\new folder\\assignment\\todoapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|c:\\new folder\\assignment\\todoapp.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|c:\\new folder\\assignment\\todoapp.api\\todoapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|solutionrelative:todoapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|c:\\new folder\\assignment\\todoapp.api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|c:\\new folder\\assignment\\todoapp.api\\migrations\\20251026073544_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F9A6C2-8A7D-442A-860A-E3F0A460E25A}|TodoApp.Api.csproj|solutionrelative:migrations\\20251026073544_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251026073544_task.cs",
+              "DocumentMoniker": "C:\\New folder\\Assignment\\TodoApp.Api\\Migrations\\20251026073544_task.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251026073544_task.cs",
+              "ToolTip": "C:\\New folder\\Assignment\\TodoApp.Api\\Migrations\\20251026073544_task.cs",
+              "RelativeToolTip": "Migrations\\20251026073544_task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T07:35:45.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\New folder\\Assignment\\TodoApp.Api\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\New folder\\Assignment\\TodoApp.Api\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T07:33:53.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\New folder\\Assignment\\TodoApp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\New folder\\Assignment\\TodoApp.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T07:44:36.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\New folder\\Assignment\\TodoApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\New folder\\Assignment\\TodoApp.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:43:47.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\New folder\\Assignment\\TodoApp.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\New folder\\Assignment\\TodoApp.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:43:25.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\New folder\\Assignment\\TodoApp.Api\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\New folder\\Assignment\\TodoApp.Api\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:42:23.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoApp.Api.csproj",
+              "DocumentMoniker": "C:\\New folder\\Assignment\\TodoApp.Api\\TodoApp.Api.csproj",
+              "RelativeDocumentMoniker": "TodoApp.Api.csproj",
+              "ToolTip": "C:\\New folder\\Assignment\\TodoApp.Api\\TodoApp.Api.csproj",
+              "RelativeToolTip": "TodoApp.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T07:41:41.116Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
