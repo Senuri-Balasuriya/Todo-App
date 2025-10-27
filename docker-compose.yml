@@ -19,6 +19,7 @@ services:
       - "7000:8080"   # maps container port 8080 to localhost 7000
     environment:
       - ConnectionStrings__DefaultConnection=Server=db;Database=TodoDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+      - ASPNETCORE_ENVIRONMENT=Development
     depends_on:
       - db
 
