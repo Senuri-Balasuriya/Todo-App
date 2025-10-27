@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:7000";
+
 export default function TaskForm({ onTaskAdded }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
@@ -9,18 +11,22 @@ export default function TaskForm({ onTaskAdded }) {
 
     if (!title.trim()) return alert("Please enter a title!");
 
-    const response = await fetch("https://localhost:7027/api/task", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title, description }),
-    });
+    try {
+      const response = await fetch(`${API_URL}/api/task`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title, description }),
+      });
 
-    if (response.ok) {
-      setTitle("");
-      setDescription("");
-      onTaskAdded();
-    } else {
-      alert("Error adding task");
+      if (response.ok) {
+        setTitle("");
+        setDescription("");
+        onTaskAdded();
+      } else {
+        alert("Error adding task");
+      }
+    } catch (error) {
+      console.error("Error adding task:", error);
     }
   };
 

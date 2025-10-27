@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssqldata:/var/opt/mssql
+
+  backend:
+    build: ./TodoApp.Api
+    container_name: todo-backend
+    ports:
+      - "7000:8080"   # maps container port 8080 to localhost 7000
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=TodoDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    container_name: todo-frontend
+    ports:
+      - "5173:80"   # maps container port 80 to localhost 5173
+    environment:
+      - REACT_APP_API_URL=http://todo-backend:8080
+    depends_on:
+      - backend
+
+volumes:
+  mssqldata:
