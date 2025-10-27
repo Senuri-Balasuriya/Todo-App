@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\New folder\\Assignment\\TodoApp.Api\\TodoApp.Api.csproj": {}
+    "C:\\New folder\\ToDoApp\\TodoApp.Api\\TodoApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\New folder\\Assignment\\TodoApp.Api\\TodoApp.Api.csproj": {
+    "C:\\New folder\\ToDoApp\\TodoApp.Api\\TodoApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\New folder\\Assignment\\TodoApp.Api\\TodoApp.Api.csproj",
+        "projectUniqueName": "C:\\New folder\\ToDoApp\\TodoApp.Api\\TodoApp.Api.csproj",
         "projectName": "TodoApp.Api",
-        "projectPath": "C:\\New folder\\Assignment\\TodoApp.Api\\TodoApp.Api.csproj",
+        "projectPath": "C:\\New folder\\ToDoApp\\TodoApp.Api\\TodoApp.Api.csproj",
         "packagesPath": "C:\\Users\\senur\\.nuget\\packages\\",
-        "outputPath": "C:\\New folder\\Assignment\\TodoApp.Api\\obj\\",
+        "outputPath": "C:\\New folder\\ToDoApp\\TodoApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
